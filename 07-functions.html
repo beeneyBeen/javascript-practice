@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Function</title>
+  </head>
+  <body>
+    <script>
+      /*
+      function function1() {
+        console.log("hello");
+        console.log(2 + 2);
+      }
+
+      function1();
+      function1();
+      */
+
+      //This is parameter
+      function calculateTax(cost, taxPercent = 0.1) {
+        console.log(cost * taxPercent);
+      }
+
+      calculateTax(3000, 0.1);
+      calculateTax(4000 );
+      calculateTax(5000);
+      calculateTax(6000);
+    </script>
+  </body>
+</html>
